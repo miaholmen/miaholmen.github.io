@@ -1,0 +1,167 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.default-btn {
+  background-color: #404040;
+  border: none;
+  color: white;
+  width: 160px;
+  padding: 12px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.default-btn:hover {
+  background-color: #5D5C5C;
+}
+
+.primary-btn {
+  background-color: #91C8D6;
+  border: none;
+  color: white;
+  width: 160px;
+  padding: 12px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.primary-btn:hover {
+  background-color: #A4D6E2;
+}
+
+.link-btn {
+  background-color: #91D6C0;
+  border: none;
+  color: white;
+  width: 160px;
+  padding: 12px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.link-btn:hover {
+  background-color: #A1E1CC;
+}
+
+.caution-btn {
+  background-color: #DF7171;
+  border: none;
+  color: white;
+  width: 160px;
+  padding: 12px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.caution-btn:hover {
+  background-color: #EC8686;
+}
+
+.rounded-btn {
+  background-color: #404040;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  width: 160px;
+  padding: 12px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.rounded-btn:hover {
+  background-color: #5D5C5C;
+}
+
+.full-btn {
+  background-color: #404040;
+  border: none;
+  
+  color: white;
+  width: 320px;
+  padding: 12px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.full-btn:hover {
+  background-color: #5D5C5C;
+}
+
+
+pre {
+    margin-left: -50px;
+    margin-bottom: -20px;
+}
+
+.html {
+    background-color: #E2F2F7;
+    width: 380px;
+}
+
+.css {
+    background-color: #E2F2F7;
+    width: 380px;
+}
+
+pre code {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.alert {
+  padding: 20px;
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+}
+
+.info {
+    background-color: #91C8D6;
+}
+
+.success {
+  background-color: #91D6C0;
+}
+
+.bad {
+  background-color: #DF7171;
+}
+
+.close-btn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.close-btn:hover {
+  color: #E0E0E0;
+}
