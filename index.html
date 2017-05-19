@@ -6,13 +6,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="content">
     <h1>Pattern Library</h1>
+    <hr>
     
     <h2>Buttons</h2>
+    <p>Buttons can be used to link to a new action, a new page on the website or an external website. They can also be used in forms for submitting data. </p>
     
     <h3>Default button</h3>
-    <p>This is the default button</p>
-    <a href="#"><button class="default-btn">Default</button></a>
+    <p>This is the default button which can be used for most actions, although the selection of buttons below is often more appropriate for certain actions.</p>
+    <p>The buttons all have a font size of 16px and a 1px letter spacing.</p>
+    <div class="btn"><a href="#"><button class="default-btn">Default</button></a></div>
     
     <h4>HTML</h4>
     <div class="html">
@@ -40,6 +44,7 @@
                 display: inline-block;
                 font-size: 16px;
                 letter-spacing: 1px;
+                cursor: pointer;
                 }
 
                 .default-btn:hover {
@@ -52,8 +57,8 @@
     <br>
     
     <h3>Primary button</h3>
-    <p>This is the primary button</p>
-    <a href="#"><button class="primary-btn">Primary </button></a>
+    <p>The primary button could be used as a button for primary and important actions and is in a shade of blue (#91C8D6).</p>
+    <div class="btn"><a href="#"><button class="primary-btn">Primary </button></a></div>
     <h4>HTML</h4>
     <div class="html">
         <pre>
@@ -80,6 +85,7 @@
                 display: inline-block;
                 font-size: 16px;
                 letter-spacing: 1px;
+                cursor: pointer;
                 }
 
                 .primary-btn:hover {
@@ -93,8 +99,8 @@
     
     
     <h3>Link button</h3>
-    <p>This is the link button</p>
-    <a href="#"><button class="link-btn">Link </button></a>
+    <p>The link button should be used when linking to an external website and is in a shade of green (#91D6C0).</p>
+    <div class="btn"><a href="#"><button class="link-btn">Link </button></a></div>
     <h4>HTML</h4>
     <div class="html">
         <pre>
@@ -121,6 +127,7 @@
                 display: inline-block;
                 font-size: 16px;
                 letter-spacing: 1px;
+                cursor: pointer;
                 }
 
                 .link-btn:hover {
@@ -133,8 +140,8 @@
     <br>
     
     <h3>Caution button</h3>
-    <p>This is the caution button</p>
-    <a href="#"><button class="caution-btn">Caution</button></a>
+    <p>The caution button is for specific actions only and should be used sparingly.</p>
+    <div class="btn"><a href="#"><button class="caution-btn">Caution</button></a></div>
     <h4>HTML</h4>
     <div class="html">
         <pre>
@@ -161,6 +168,7 @@
                 display: inline-block;
                 font-size: 16px;
                 letter-spacing: 1px;
+                cursor: pointer;
                 }
 
                 .caution-btn:hover {
@@ -173,8 +181,8 @@
     <br>
     
     <h3>Rounded button</h3>
-    <p>This is the rounded button</p>
-    <a href="#"><button class="rounded-btn">Rounded</button></a>
+    <p>Buttons can also have rounded corners by adding the border-radius in CSS.</p>
+    <div class="btn"><a href="#"><button class="rounded-btn">Rounded</button></a></div>
     <h4>HTML</h4>
     <div class="html">
         <pre>
@@ -202,6 +210,7 @@
                 display: inline-block;
                 font-size: 16px;
                 letter-spacing: 1px;
+                cursor: pointer;
                 }
 
                 .rounded-btn:hover {
@@ -214,8 +223,8 @@
     <br>
     
     <h3>Full-width button</h3>
-    <p>This is the full-width button</p>
-    <a href="#"><button class="full-btn">Full-width</button></a>
+    <p>Should there be a need for a wider button, the full-width button can be used. This can be used in headers, for example, centering the button as a focal point.</p>
+    <div class="btn"><a href="#"><button class="full-btn">Full-width</button></a></div>
     <h4>HTML</h4>
     <div class="html">
         <pre>
@@ -243,6 +252,7 @@
                 display: inline-block;
                 font-size: 16px;
                 letter-spacing: 1px;
+                cursor: pointer;
                 }
 
                 .full-btn:hover {
@@ -255,8 +265,9 @@
     <br>
     
     <h2>Alerts</h2>
+    <p>Alert messages are used to notify the user of something; either information, danger/caution or success.</p>
     <h3>Information alert</h3>
-    <p>This is the information alert</p>
+    <p>This alert will appear when the user needs to be informed about something. The user can click the X to make the message disappear.</p>
     <div class="alert info">
         <span class="close-btn" onclick="this.parentElement.style.display='none';">&times;</span> 
         <strong>Alert!</strong> Information alert
@@ -312,6 +323,7 @@
     <br>
     
     <h3>Caution alert</h3>
+    <p>This alert will appear when something bad happened, or if the user has to be notified about a dangerous or potentially negative action. The user can click the X to make the message disappear.</p>
     <div class="alert bad">
       <span class="close-btn" onclick="this.parentElement.style.display='none';">&times;</span> 
       <strong>Alert!</strong> Something bad happened
@@ -368,6 +380,7 @@
     <br>
     
     <h3>Success alert</h3>
+    <p>This alert will appear when something successful happened, or if the user has to be notified about a positive action. The user can click the X to make the message disappear.</p>
     <div class="alert success">
       <span class="close-btn" onclick="this.parentElement.style.display='none';">&times;</span> 
       <strong>Alert!</strong> Something successful happened
@@ -424,5 +437,45 @@
     <br>
    
     <h2>Call to action</h2>
+    <p>The call to action can be used should there be a need to call extra attention to specific content on the website. It has a blue background to make it stand out and allows for a heading and text. The colour can also be changed depending on the usage.</p>
+    <div class="cta">
+       <h1>Call to action</h1>
+       <p>Text for the call to action goes here!</p>
+    </div>
+    <h4>HTML</h4>
+    <div class="html">
+        <pre>
+            <code>
+                &lt;div class="cta"&gt;
+                   &lt;h1>Call to action&lt;/h1&gt;
+                   &lt;p&gt;Text for the call to action goes here!&lt;/p&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+    <br>
+    <h4>CSS</h4>
+    <div class="css">
+        <pre>
+            <code>
+                .cta {
+                font-family: Helvetica, sans-serif;
+                background-color: #91C8D6;
+                color: #fff;
+                width: 420px;
+                padding: 40px;
+                border-radius: 3px;
+                }
+
+                .cta h1 {
+                font-size: 42px;
+                margin: auto;  
+                }
+            </code>
+        </pre>
+    </div>
+    <br>
+    <br>
+    </div>
 </body>
 </html>
